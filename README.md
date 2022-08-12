@@ -127,7 +127,7 @@ After doing the correct `vendor:publish`, all of the default template files will
 
 ### Customizing admin views
 If you need to customize the admin view, just copy the files from
-`vendor/binshopsblog/src/Views/binshopsblog_admin`
+`vendor/godscodes/src/Views/binshopsblog_admin`
 to
 `resources/views/vendor/binshopsblog_admin`
 Then you can modify them just like any other view file.
