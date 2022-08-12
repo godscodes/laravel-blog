@@ -83,7 +83,7 @@ To see package on Packagist click this [Link](https://packagist.org/packages/bin
 ### Single Language Version
 To install the single language version of the package use version v8.1x:
 
-1- `composer require binshops/laravel-blog:v8.1.2`
+1- `composer require godscodes/laravel-blog:v1.0.0`
 
 2- `php artisan vendor:publish --provider="BinshopsBlog\BinshopsBlogServiceProvider"`
 
