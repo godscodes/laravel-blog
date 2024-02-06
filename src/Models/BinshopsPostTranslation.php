@@ -91,7 +91,7 @@ class BinshopsPostTranslation extends Model implements SearchResultInterface
     public function has_image($size = 'medium')
     {
         $this->check_valid_image_size($size);
-        return strlen($this->{"image_" . $size});
+        return strlen($this->{"image_" . $size} ?? '');
     }
 
     /**
