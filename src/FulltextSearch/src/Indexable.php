@@ -56,7 +56,7 @@ trait Indexable
             if ($this->indexDataIsRelation($column)) {
                 $indexData[] = $this->getIndexValueFromRelation($column);
             } else {
-                $indexData[] = trim($this->{$column});
+                $indexData[] = trim($this->{$column} ?? '');
             }
         }
 
